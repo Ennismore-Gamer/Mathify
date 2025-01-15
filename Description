@@ -1,0 +1,41 @@
+The Mathify class is a simple, interactive Python program designed to help users practice and learn basic arithmetic operations. The class provides methods for performing addition, subtraction, multiplication, and division. It allows users to choose which operation they'd like to perform and interactively inputs two numbers to calculate the result.
+
+Features:
+Interactive Operation Selection: The class first prompts the user to choose one of the four basic operations: addition, subtraction, multiplication, or division.
+
+User Input: After selecting an operation, the user is asked to enter two numbers on which the chosen operation will be performed.
+
+Flexible Results: Once the user inputs the numbers, the class performs the operation and displays the result in a clear format.
+
+Error Handling:
+
+Handles division by zero and alerts the user when this error occurs.
+Catches invalid input (like non-numeric values) and asks the user to enter valid numbers.
+Methods:
+addition(a, b): Takes two numbers and prints their sum.
+subtraction(a, b): Takes two numbers and prints their difference.
+multiplication(a, b): Takes two numbers and prints their product.
+division(a, b): Takes two numbers and prints their quotient. If the second number is zero, an error message is shown.
+Usage Example:
+When the class is instantiated and the teach_math() method is called, the program will prompt the user to select a math operation. After the user selects an operation, they will enter two numbers. The result of the operation will be printed to the screen.
+
+Example interaction:
+
+markdown
+Copy
+Welcome to the Basic Math Tutorial!
+Choose an operation:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+Enter the number corresponding to the operation: 3
+Enter the first number: 7
+Enter the second number: 6
+7.0 * 6.0 = 42.0
+Benefits:
+Educational: Helps beginners practice and understand basic arithmetic operations.
+User-Friendly: Easy-to-use with prompts and error handling to guide the user.
+Extensible: Can be expanded to include more complex math operations (like exponentiation or square roots).
+Intended Audience:
+This class is designed for individuals learning basic math concepts, teachers who want to demonstrate simple operations in code, or anyone interested in using Python for educational purposes.
